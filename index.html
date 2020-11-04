@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Multiple Visualisations | An Example</title>
+  <title>Covid-19 Visualisation</title>
   <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
@@ -233,26 +233,26 @@
   </div> <!-- end page -->
    
 <script type="text/javascript">
-  var specVis1 = "Assignment_2/js/total_cases_map.json";
+  var specVis1 = "main-data/js/total_cases_map.json";
           
-  var specVis2= "Assignment_2/js/active_cases_bar.json";
-  var specVis3= "Assignment_2/js/recovered_cases_bar.json";
-  var specVis4= "Assignment_2/js/death_cases_bar.json";
+  var specVis2= "main-data/js/active_cases_bar.json";
+  var specVis3= "main-data/js/recovered_cases_bar.json";
+  var specVis4= "main-data/js/death_cases_bar.json";
           
-  var specVis5= "Assignment_2/js/total_cases_bubble.json"; 
-  var specVis6= "Assignment_2/js/cases_population_bubble.json";
+  var specVis5= "main-data/js/total_cases_bubble.json"; 
+  var specVis6= "main-data/js/cases_population_bubble.json";
           
-  var specVis7= "Assignment_2/js/composition_donut.json";
-  var specVis8= "Assignment_2/js/deaths_heatmap.json";
+  var specVis7= "main-data/js/composition_donut.json";
+  var specVis8= "main-data/js/deaths_heatmap.json";
           
-  var specVis9= "Assignment_2/js/us_cases_map.json";        
+  var specVis9= "main-data/js/us_cases_map.json";        
   var specVis10= "Assignment_2/js/us_deaths_map.json";
           
-  var specVis11= "Assignment_2/js/cases_continent_line.json";
-  var specVis12= "Assignment_2/js/recoveries_continent_line.json";
-  var specVis13= "Assignment_2/js/deaths_continent_line.json";        
+  var specVis11= "main-data/js/cases_continent_line.json";
+  var specVis12= "main-data/js/recoveries_continent_line.json";
+  var specVis13= "main-data/js/deaths_continent_line.json";        
   
-  var specVis14= "Assignment_2/js/composition_radial.json";  
+  var specVis14= "main-data/js/composition_radial.json";  
 
   vegaEmbed('#vis1', specVis1, {"actions": false}).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
